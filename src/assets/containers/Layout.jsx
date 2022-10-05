@@ -2,7 +2,9 @@ import Formulario from "./Formulario";
 
 function Layaout() {
     return(
-        <Formulario/>
+        <>
+            <Formulario/>
+        </>
     );
 }
 export default Layaout;

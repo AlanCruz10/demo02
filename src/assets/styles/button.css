@@ -1,0 +1,29 @@
+.button-container--button_style {
+    border-radius: 8px;
+    border: 1px solid transparent;
+    padding: 0.6em 1.2em;
+    font-size: 1em;
+    margin-top: 20px;
+    font-weight:bold;
+    font-family:Arial, Helvetica, sans-serif;
+    background-color: #ffffff;
+    cursor: pointer;
+    transition: border-color 0.10s;
+    color: rgb(0, 0, 0);
+}
+
+.button-container--button_style:hover {
+    background-color: black;
+    color: white;
+    border: 1px solid #0400ff;
+}
+
+.button-container--button_style:active{
+    border-right: 0px solid #000000;;
+    box-shadow: 4px 4px 0px 0px #020081;
+}
+
+.button-container {
+    width: 100%;
+    text-align: center;
+}

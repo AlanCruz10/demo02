@@ -1,0 +1,13 @@
+.container-title__h1 {
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 62px;
+    line-height: 1;
+    margin-top: 8px;
+    margin-bottom: 16px;
+    color: white;
+}
+
+.container-title {
+    width: 100%;
+    text-align: center;
+}

@@ -1,14 +1,13 @@
-import Email from "../components/Email";
-import Password from "../components/Password";
-import Login from "../components/Login";
+import Login from "./Login";
+import Title from "../components/Title";
 import Button from "../components/Button";
+import '../styles/form.css'
 
 function Formulario() {
     return (
-        <div>
+        <div className="login-form">
+            <Title/>
             <Login/>
-            <Email/>
-            <Password/>
             <Button/>
         </div>
     );
