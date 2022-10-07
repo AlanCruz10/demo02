@@ -4,11 +4,19 @@ import Button from "../components/Button";
 import '../styles/form.css'
 
 function Formulario() {
+
+const handleSubmit = (e) => {
+
+    e.preventDefault();
+    //console-log('click')
+}
     return (
         <div className="login-form">
             <Title/>
-            <Login/>
-            <Button/>
+            <form onSubmit={handleSubmit}>
+                <Login/>
+                <Button/>
+            </form>+
         </div>
     );
 }
